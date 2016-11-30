@@ -29,9 +29,9 @@ Attach the component in your config file:
 ### Use
 
 ```php
-Yii::$app->antileech->stream($filePath);
+Yii::$app->antileech->stream($filePath, 10000);
 ```
 
 #### Parameters
 - string `filePath` required (string) -The full path to the file
-- integer `speed` - Speed limit
+- integer `speedLimit` - Speed limit
