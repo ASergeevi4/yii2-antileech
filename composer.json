@@ -1,0 +1,29 @@
+{
+  "name": "sadovojav/yii2-antileech",
+  "description": "Yii2 antileech component",
+  "version": "1.0.0",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "anti leech",
+    "file",
+    "distribute",
+    "stream"
+  ],
+  "authors": [
+    {
+      "name": "Aleksandr Sadovoj",
+      "email": "sadovojav@gmail.com",
+      "homepage": "https://github.com/sadovojav"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "sadovojav\\antileech\\": ""
+    }
+  }
+}
